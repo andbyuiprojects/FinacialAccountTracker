@@ -20,7 +20,7 @@ not just a string.
 # Useful Websites
 - [Learn Kotlin Programming](https://www.programiz.com/kotlin-programming)
 - [Kotlin docs](https://kotlinlang.org/docs/home.html)
-  [Kotlin](https://discuss.kotlinlang.org/)
+- [Kotlin](https://discuss.kotlinlang.org/)
 
 # Future Work
 - Add better classes to allow for better functionality
