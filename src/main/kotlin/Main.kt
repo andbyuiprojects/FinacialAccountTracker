@@ -33,7 +33,7 @@ class Account
     // This will display the account balance
     fun getAccountDetails(): String
     {
-        return "Name :  $name, Account ID: $accountID AccountBalance : $accountBalance"
+        return "Name: $name, Account ID: $accountID AccountBalance: $$accountBalance"
     }
 }
 
@@ -95,7 +95,7 @@ fun main(args: Array<String>)
 
                     var edit : Boolean = true
 
-                    println("Would you like to add or subtract from the account?")
+                    println("Would you like to add or subtract from the account? (type yes, or no): ")
                     val choiceEdit = readlnOrNull()
                     if (choiceEdit != null && choiceEdit.lowercase() == "yes")
                     {
@@ -116,7 +116,7 @@ fun main(args: Array<String>)
                                     //edit = false
 
                                     accountBalance += addedAmount
-                                    println("Your new balance is : $accountBalance")
+                                    println("Your new balance is : $$accountBalance")
                                 }
                                 // Subtracts from the account balance
                                 else if (choice.lowercase(Locale.getDefault()) == "subtract")
@@ -125,7 +125,7 @@ fun main(args: Array<String>)
                                     val subtractAmount = scanner.nextDouble()
 
                                     accountBalance -= subtractAmount
-                                    println("Your new balance is : $accountBalance")
+                                    println("Your new balance is : $$accountBalance")
                                     //edit = false
                                 }
                                 // Quits the eddit loop
