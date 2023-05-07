@@ -7,9 +7,7 @@ At any time the user can exit the program.
 I wrote this software to be able to use it later to create an app to allow a person to keep track of their finances in 
 a way that does not have a lot of fluff other apps have. I wanted a very streamline, to the point program.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/dy96Nh8RdbM)
 
 # Development Environment
 To develop this program, I used the Intellij IDEA Community IDE to write the Kotlin language.
